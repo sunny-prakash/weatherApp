@@ -1,0 +1,13 @@
+.info {
+    margin: 2rem 5rem 4rem 5rem;
+    box-shadow: 2px 2px 20px #021af2;
+    padding: 1rem;
+    background: #00f7ff;
+    border-radius: 20px;
+}
+
+.details {
+    font-weight: 800;
+    font-size: large;
+    color: #4e4c36;
+}
