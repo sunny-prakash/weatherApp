@@ -27,7 +27,7 @@ class App extends Component {
         this.fetchData();
     };
     fetchData = async () => {
-        let res = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.input}&units=metric&appid=05a1d98de40020847a5cbd91ec0058ea`);
+        let res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${this.state.input}&units=metric&appid=05a1d98de40020847a5cbd91ec0058ea`);
         let data = await res.json();
         // console.log(data);
         let fulldata = [data];
